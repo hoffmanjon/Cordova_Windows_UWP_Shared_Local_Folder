@@ -12,23 +12,8 @@ log.txt
 .vscode/
 npm-debug.log*
 
-.idea/
-.sass-cache/
-.tmp/
-.versions/
-coverage/
-dist/
-node_modules/
-tmp/
-temp/
-hooks/
-platforms/
-plugins/
-plugins/android.json
-plugins/ios.json
-www/
 $RECYCLE.BIN/
+platforms
+node_modules
+www
 
-.DS_Store
-Thumbs.db
-UserInterfaceState.xcuserstate

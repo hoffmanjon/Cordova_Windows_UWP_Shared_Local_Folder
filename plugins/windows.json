@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "FileSavePOC"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "FileSavePOC"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "FileSavePOC"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "FileSavePOC"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "FileSavePOC"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "FileSavePOC"
+        },
+        "com-myfuelmaster-file-save": {
+            "PACKAGE_NAME": "FileSavePOC"
+        }
+    },
+    "dependent_plugins": {}
+}
