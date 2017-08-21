@@ -19,9 +19,13 @@ We can now add the following code to use a file picker to let the user select wh
 ```
     var fileData = "data in file"
     FileSavePlugin['saveFileWithPicker'](fileData, (retValue) => {
-      this.message = "fileName: " + retValue
+      this.zone.run(() => {
+        this.message = "fileName: " + retValue
+      })
     }, (errValue) => {
-      this.message = "XError: " + errValue
+      this.zone.run(() => {
+        this.message = "XError: " + errValue
+      })
     })   
 ```
 
@@ -32,9 +36,13 @@ Saving a file to the application's local or shared directories requires you to p
     var fileData = "data in file"
     var args = {'filename':fileName, 'data':fileData}
      FileSavePlugin['saveFileLocal'](args, (retValue) => {
-      this.message = "Card- " + retValue
+       this.zone.run(() => {
+         this.message = "Card- " + retValue
+       })
     }, (errValue) => {
-      this.message = "XError: " + errValue
+      this.zone.run(() => {
+        this.message = "XError: " + errValue
+      })
     })   
 ```
 
@@ -45,9 +53,13 @@ And the following example shows how to save to the applicaiton's shared director
     var fileData = "data in file"
     var args = {'filename':fileName, 'data':fileData}
      FileSavePlugin['saveFileShared'](args, (retValue) => {
-      this.message = "Card- " + retValue
+       this.zone.run(() => {
+         this.message = "Card- " + retValue
+       })
     }, (errValue) => {
-      this.message = "XError: " + errValue
+      this.zone.run(() => {
+        this.message = "XError: " + errValue
+      })
     })   
 ```
 

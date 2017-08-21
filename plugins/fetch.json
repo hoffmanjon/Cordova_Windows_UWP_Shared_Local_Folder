@@ -50,7 +50,7 @@
     "com-myfuelmaster-file-save": {
         "source": {
             "type": "local",
-            "path": "../FileSavePlugin"
+            "path": "J:\\ionic_projects\\FileSave\\FileSavePOC\\node_modules\\file-save"
         },
         "is_top_level": true,
         "variables": {}
