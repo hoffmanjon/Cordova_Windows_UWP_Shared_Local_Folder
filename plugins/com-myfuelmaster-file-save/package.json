@@ -2,99 +2,59 @@
   "_args": [
     [
       {
-        "raw": "J:\\ionic_projects\\FileSave\\FileSavePlugin",
+        "raw": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "J:\\ionic_projects\\FileSave\\FileSavePlugin",
-        "spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin",
+        "rawSpec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
+        "spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
         "type": "directory"
       },
       "J:\\ionic_projects\\FileSave\\FileSavePOC\\node_modules"
     ]
   ],
-  "_from": "..\\FileSavePlugin",
-  "_id": "file-save@0.0.1",
+  "_from": "..\\FileSavePlugin_github",
+  "_id": "FileSavePlugin_github@0.0.1",
   "_inCache": true,
-  "_location": "/file-save",
+  "_location": "/FileSavePlugin_github",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "J:\\ionic_projects\\FileSave\\FileSavePlugin",
+    "raw": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "J:\\ionic_projects\\FileSave\\FileSavePlugin",
-    "spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin",
+    "rawSpec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
+    "spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
     "type": "directory"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "file:..\\FileSavePlugin",
-  "_shasum": "4a067396a969c27db3a1c4230d5e90f62c2566b4",
+  "_resolved": "file:..\\FileSavePlugin_github",
+  "_shasum": "b3f397673a001cb04200d1661a252eb75acc5506",
   "_shrinkwrap": null,
-  "_spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin",
+  "_spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
   "_where": "J:\\ionic_projects\\FileSave\\FileSavePOC\\node_modules",
   "author": {
-    "name": "Ionic Framework"
+    "name": "Jon Hoffman"
   },
   "bugs": {
-    "url": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder/issues"
+    "url": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin/issues"
   },
   "cordova": {
-    "plugins": {
-      "cordova-plugin-console": {},
-      "cordova-plugin-device": {},
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-statusbar": {},
-      "cordova-plugin-whitelist": {},
-      "ionic-plugin-keyboard": {}
-    }
+    "id": "com-myfuelmaster-file-save",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
   },
-  "cordovaPlatforms": [],
-  "cordovaPlugins": [
-    "cordova-plugin-whitelist",
-    "cordova-plugin-console",
-    "cordova-plugin-statusbar",
-    "cordova-plugin-device",
-    "ionic-plugin-keyboard",
-    "cordova-plugin-splashscreen"
-  ],
-  "dependencies": {
-    "@angular/common": "4.0.0",
-    "@angular/compiler": "4.0.0",
-    "@angular/compiler-cli": "4.0.0",
-    "@angular/core": "4.0.0",
-    "@angular/forms": "4.0.0",
-    "@angular/http": "4.0.0",
-    "@angular/platform-browser": "4.0.0",
-    "@angular/platform-browser-dynamic": "4.0.0",
-    "@ionic-native/core": "3.4.2",
-    "@ionic-native/splash-screen": "3.4.2",
-    "@ionic-native/status-bar": "3.4.2",
-    "@ionic/storage": "2.0.1",
-    "cordova-plugin-console": "1.0.5",
-    "cordova-plugin-device": "1.1.4",
-    "cordova-plugin-splashscreen": "~4.0.1",
-    "cordova-plugin-statusbar": "2.2.1",
-    "cordova-plugin-whitelist": "1.3.1",
-    "ionic-angular": "3.0.1",
-    "ionic-plugin-keyboard": "~2.2.1",
-    "ionicons": "3.0.0",
-    "rxjs": "5.1.1",
-    "sw-toolbox": "3.4.0",
-    "zone.js": "^0.8.4"
-  },
-  "description": "FileSavePOC: An Ionic project",
-  "devDependencies": {
-    "@ionic/app-scripts": "1.3.0",
-    "@ionic/cli-plugin-cordova": "1.4.0",
-    "@ionic/cli-plugin-ionic-angular": "1.3.1",
-    "typescript": "~2.2.1"
-  },
-  "gitHead": "ecd5a55958ccc1bbb295479bcbbe5b6eca576a43",
-  "homepage": "http://ionicframework.com/",
+  "dependencies": {},
+  "description": "POC for shared local folder",
+  "devDependencies": {},
+  "gitHead": "927a6b39aabd38c4c9e462c8cd72dca27949e45f",
+  "homepage": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin#readme",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -102,20 +62,13 @@
     "cordova-windows"
   ],
   "license": "Apache",
-  "name": "file-save",
+  "name": "FileSavePlugin_github",
   "optionalDependencies": {},
-  "private": true,
-  "readme": "#Syntech File Save Plugin#\n\n----\n\n##What is it##\nThis plugin will create and save a text files to disk.  There are three ways to save a file:  Use a file picker to let the user select where to save the file, save it in the application's local directory or in the applications shared directory.\n\n##How to use it##\nAdd the plugin to your project using the \"ionic plugin add\" command\n\nAt the top of your code, right after the import statements, add the following line:\n\n```\ndeclare var FileSavePlugin: any\n```\n\nWe can now add the following code to use a file picker to let the user select where to save the file:\n\n```\n    var fileData = \"data in file\"\n    FileSavePlugin['saveFileWithPicker'](fileData, (retValue) => {\n      this.zone.run(() => {\n        this.message = \"fileName: \" + retValue\n      })\n    }, (errValue) => {\n      this.zone.run(() => {\n        this.message = \"XError: \" + errValue\n      })\n    })   \n```\n\nSaving a file to the application's local or shared directories requires you to provide not only the test to save but also the file name.  The following code sows how we can save text data to a file in the applicaiton's local directory\n\n```\n    var fileName = 'myFile.txt'\n    var fileData = \"data in file\"\n    var args = {'filename':fileName, 'data':fileData}\n     FileSavePlugin['saveFileLocal'](args, (retValue) => {\n       this.zone.run(() => {\n         this.message = \"Card- \" + retValue\n       })\n    }, (errValue) => {\n      this.zone.run(() => {\n        this.message = \"XError: \" + errValue\n      })\n    })   \n```\n\nAnd the following example shows how to save to the applicaiton's shared directory\n\n```\n    var fileName = 'myFile.txt'\n    var fileData = \"data in file\"\n    var args = {'filename':fileName, 'data':fileData}\n     FileSavePlugin['saveFileShared'](args, (retValue) => {\n       this.zone.run(() => {\n         this.message = \"Card- \" + retValue\n       })\n    }, (errValue) => {\n      this.zone.run(() => {\n        this.message = \"XError: \" + errValue\n      })\n    })   \n```\n\n\n##To Do##\nThere is ugly hack code, like the one in the OCR plugin that I need to spend time researching how I can remove it.\n\n\nContact Jon Hoffman jon.hoffman@myfuelmaster.com for any questions.",
+  "readme": "Plugin for:  https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder.git"
-  },
-  "scripts": {
-    "build": "ionic-app-scripts build",
-    "clean": "ionic-app-scripts clean",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "url": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git"
   },
   "version": "0.0.1"
 }
