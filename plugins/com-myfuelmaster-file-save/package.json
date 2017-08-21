@@ -1,47 +1,7 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
-        "spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
-        "type": "directory"
-      },
-      "J:\\ionic_projects\\FileSave\\FileSavePOC\\node_modules"
-    ]
-  ],
-  "_from": "..\\FileSavePlugin_github",
-  "_id": "FileSavePlugin_github@0.0.1",
-  "_inCache": true,
-  "_location": "/FileSavePlugin_github",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
-    "spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
-    "type": "directory"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "file:..\\FileSavePlugin_github",
-  "_shasum": "b3f397673a001cb04200d1661a252eb75acc5506",
-  "_shrinkwrap": null,
-  "_spec": "J:\\ionic_projects\\FileSave\\FileSavePlugin_github",
-  "_where": "J:\\ionic_projects\\FileSave\\FileSavePOC\\node_modules",
-  "author": {
-    "name": "Jon Hoffman"
-  },
-  "bugs": {
-    "url": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin/issues"
-  },
+  "name": "FileSavePlugin_github",
+  "version": "0.0.1",
+  "description": "POC for shared local folder",
   "cordova": {
     "id": "com-myfuelmaster-file-save",
     "platforms": [
@@ -50,25 +10,20 @@
       "windows"
     ]
   },
-  "dependencies": {},
-  "description": "POC for shared local folder",
-  "devDependencies": {},
-  "gitHead": "927a6b39aabd38c4c9e462c8cd72dca27949e45f",
-  "homepage": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
     "cordova-windows"
   ],
+  "author": "Jon Hoffman",
   "license": "Apache",
-  "name": "FileSavePlugin_github",
-  "optionalDependencies": {},
-  "readme": "Plugin for:  https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder\n",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git"
+  "bugs": {
+    "url": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin/issues"
   },
-  "version": "0.0.1"
+  "homepage": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin#readme"
 }
